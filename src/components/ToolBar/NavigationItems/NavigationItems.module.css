@@ -1,0 +1,7 @@
+.NavigationItems {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  width: 40%;
+  margin: 0 auto;
+}
