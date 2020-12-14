@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Layout from "./components/Layout/Layout";
+import ProductsContainer from "./containers/ProductsContainer/ProductsContainer";
 
 class App extends Component {
   render() {
     return (
       <div>
         <Layout>
-          <h1> Blood is thicker than water </h1>
+          <ProductsContainer />
         </Layout>
       </div>
     );

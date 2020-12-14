@@ -1,0 +1,21 @@
+.Product {
+    width: 320px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.Product img {
+    width: 100%;
+    height: 320px;
+    background-color: rgba(228, 228, 228, 0.384);
+}
+
+.TextArea {
+    width: 100%;;
+    background-color: #fff;
+    margin-top: 0;
+    padding: 20px 15px;
+    text-align: left;
+}
