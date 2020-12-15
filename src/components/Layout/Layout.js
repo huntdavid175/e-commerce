@@ -1,6 +1,6 @@
 import React from "react";
 import ToolBar from "../ToolBar/ToolBar";
-import classes from "./Layout.module.css";
+// import classes from "./Layout.module.css";
 import Spring from "./Spring";
 
 const Layout = (props) => {
@@ -8,7 +8,7 @@ const Layout = (props) => {
     <div>
       <ToolBar />
       <Spring>
-        <main className={classes.Layout}>{props.children}</main>
+        <main>{props.children}</main>
       </Spring>
     </div>
   );

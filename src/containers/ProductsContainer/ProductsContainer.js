@@ -11,6 +11,14 @@ class ProductsContainer extends Component {
                 <ProductCard />
                 <ProductCard />
                 <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
                 </div>
                 
             </div>
