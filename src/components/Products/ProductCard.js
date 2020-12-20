@@ -1,18 +1,27 @@
 import React from "react";
-import classes from './ProductCard.module.css'
+import classes from './ProductCard.module.css';
+import PropTypes from 'prop-types'
 
 const productCard = (props) => {
   return (
-    <div className={classes.Product}>
+    <div className={classes.Product} onClick={props.clicked.bind(this, props.productId)}>
      
-        <img src="https://parmsang.github.io/gatsby-starter-ecommerce/static/13eae8f7d28eeb66a999d20f919a4d72/59139/a0063567-2c2a-4546-ba34-7709991ef8f8.png" alt=""></img>
+        <img src={props.imgUrl} alt={props.title}></img>
      
       <div className={classes.TextArea}>
-          <h2>Product 1</h2>
-          <p>Price</p>
+          <h4>{props.title}</h4>
+          <p>${props.price}</p>
       </div>
     </div>
   );
 };
+
+productCard.propTypes = {
+  imgUrl: PropTypes.string,
+  title: PropTypes.string,
+  price: PropTypes.number,
+  productId: PropTypes.number,
+  clicked: PropTypes.func
+}
 
 export default productCard;

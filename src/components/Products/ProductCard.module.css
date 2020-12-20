@@ -4,6 +4,7 @@
     border: 1px solid #ccc;
     border-radius: 7px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .Product img {
@@ -18,4 +19,13 @@
     margin-top: 0;
     padding: 20px 15px;
     text-align: left;
+}
+
+.TextArea h4 {
+    color: #333
+}
+
+.TextArea p {
+    margin-top: 5px;
+    color: gray
 }
