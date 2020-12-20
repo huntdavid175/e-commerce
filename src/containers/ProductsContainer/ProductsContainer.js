@@ -41,7 +41,7 @@ class ProductsContainer extends Component {
       <div>
         <h1 style={{ marginBottom: "55px" }}> Blood is thicker than water </h1>
         <div className={classes.Products}>
-          {this.state.products ? products : null}
+          { products }
         </div>
       </div>
     );
