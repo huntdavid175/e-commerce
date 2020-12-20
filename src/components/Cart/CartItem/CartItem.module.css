@@ -1,0 +1,32 @@
+.Card {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.Card img {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(228, 228, 228, 0.384);
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0 20px;
+    flex: 4;
+}
+
+.infoItem {
+    padding-bottom: 15px;
+}
+
+.Clear {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

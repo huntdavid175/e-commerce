@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Layout from "./components/Layout/Layout";
 // import ProductsContainer from "./containers/ProductsContainer/ProductsContainer";
-import SingleProduct from "./containers/SingleProduct/SingleProduct";
+// import SingleProduct from "./containers/SingleProduct/SingleProduct";
+import CartContainer from "./containers/CartContainer/CartContainer";
 
 class App extends Component {
   render() {
@@ -9,7 +10,8 @@ class App extends Component {
       <div>
         <Layout>
           {/* <ProductsContainer /> */}
-          <SingleProduct />
+          {/* <SingleProduct /> */}
+          <CartContainer />
         </Layout>
       </div>
     );

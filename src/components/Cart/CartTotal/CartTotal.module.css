@@ -1,0 +1,21 @@
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 3px -6px black;
+
+}
+
+.Card button {
+    padding: 15px 30px;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
