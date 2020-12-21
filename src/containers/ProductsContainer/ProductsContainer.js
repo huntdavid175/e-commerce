@@ -9,6 +9,8 @@ class ProductsContainer extends Component {
     products: [],
   };
 
+  
+
   componentDidMount() {
     axios.get("https://fakestoreapi.com/products").then((response) => {
       this.setState({
@@ -31,7 +33,7 @@ class ProductsContainer extends Component {
               title={product.title}
               price={product.price}
               imgUrl={product.image}
-              clicked={this.selectProductHandler.bind(this)}
+              clicked={this.props.clicked}
             />
           ));
       }

@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './ProductCard.module.css';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const productCard = (props) => {
   return (
