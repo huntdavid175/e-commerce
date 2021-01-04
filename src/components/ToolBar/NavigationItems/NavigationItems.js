@@ -3,6 +3,7 @@ import NavigationItem from "../NavigationItem/NavigationItem";
 import classes from "./NavigationItems.module.css";
 import Spring from "../../Layout/Spring";
 import { FiShoppingCart } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 
 const NavigationItems = (props) => {
   return (
@@ -10,10 +11,12 @@ const NavigationItems = (props) => {
       <ul className={classes.NavigationItems}>
         <NavigationItem>Sign up</NavigationItem>
         <NavigationItem>Sign in</NavigationItem>
-        <NavigationItem>
-          <FiShoppingCart style={{ marginRight: "3px" }} />
-          Cart (0)
-        </NavigationItem>
+        <NavLink to="/cart">
+          <NavigationItem>
+            <FiShoppingCart style={{ marginRight: "3px" }} />
+            Cart (0)
+          </NavigationItem>
+        </NavLink>
       </ul>
     </Spring>
   );
