@@ -12,6 +12,7 @@
 }
 
 .NavigationItems a:hover,
-.NavigationItems a:active {
+.NavigationItems a:active,
+.NavigationItems a.active {
   color: blue;
 }
