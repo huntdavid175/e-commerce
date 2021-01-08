@@ -9,8 +9,12 @@ const NavigationItems = (props) => {
   return (
     <Spring>
       <ul className={classes.NavigationItems}>
-        <NavigationItem>Sign up</NavigationItem>
-        <NavigationItem>Sign in</NavigationItem>
+        <NavLink to="/sign-up">
+          <NavigationItem>Sign up</NavigationItem>
+        </NavLink>
+        <NavLink to="/sign-in">
+          <NavigationItem>Sign in</NavigationItem>
+        </NavLink>
         <NavLink to="/cart">
           <NavigationItem>
             <FiShoppingCart style={{ marginRight: "3px" }} />
